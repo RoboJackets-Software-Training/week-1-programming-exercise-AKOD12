@@ -49,7 +49,7 @@ int main() {
 	    wheel_speeds[i]=0;
 	}
 	    std::cout<<"Shutting Down"<<std::endl;
-	    bool keep_going=false;
+	    keep_going=false;
 	}
 	else {
 	    std::cout<<"Sorry I didn't get that. Try again."<<std::endl;
