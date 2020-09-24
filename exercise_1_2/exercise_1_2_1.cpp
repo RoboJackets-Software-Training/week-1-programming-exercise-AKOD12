@@ -13,7 +13,6 @@ int main()
     {
         list.push_back(input);
     }
-
     // Print original vector
     std::cout << "Original Vector: ";
     for (int v : list)
@@ -24,6 +23,16 @@ int main()
 
     // Reverse Vector
     // WRITE YOUR VECTOR REVERSAL HERE
+    int start = 0;
+    int end = list.size() -1;
+    while (start < end){
+    int i=list[start];
+    list[start]=list[end];
+    list[end]=i;
+    start++;
+    end--;
+    
+    }
 
     // Print the Reversed vector
     std::cout << "Reversed Vector: ";
